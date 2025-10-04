@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Weather Dashboard</title>
+    <script src="https://cdn.tailwindcss.com/4.0.0-alpha.29"></script>
+    <link rel="stylesheet" href="./styles/globals.css">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- Utility Scripts -->
+    <script src="./utils/mockWeatherData.js"></script>
+    <script src="./utils/weatherService.js"></script>
+    
+    <!-- Component Scripts -->
+    <script src="./components/LoadingState.js"></script>
+    <script src="./components/ErrorState.js"></script>
+    <script src="./components/LocationSearch.js"></script>
+    <script src="./components/CurrentWeather.js"></script>
+    <script src="./components/WeatherForecast.js"></script>
+    
+    <!-- Main App Script -->
+    <script src="./app.js"></script>
+</body>
+</html>
